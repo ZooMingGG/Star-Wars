@@ -9,8 +9,6 @@
 body {
     background-color: #070506;
     background: url('../img/main-background.png');
-    font-family: 'Roboto';
-    font-weight: 400;
 }
 
 .container {
@@ -30,6 +28,7 @@ header {
 }
 
 .nav-link {
+    font-family: 'Roboto Regular';
     font-size: 16px;
     line-height: 150%;
     color: #ffffff;
@@ -42,21 +41,22 @@ nav-link:nth-child(4) {
 }
 
 .sub-title {
-    font-weight: 900;
+    font-family: 'Proxima Nova Black';
     font-size: 40px;
     line-height: 100%;
     color: #ffffff;
 }
 
 .title {
+    font-family: 'Proxima Nova Black';
     margin: 10px 0 25px 0;
-    font-weight: 900;
     font-size: 64px;
     line-height: 78px;
     color: #ffffff;
 }
 
 .info-text {
+    font-family: 'Roboto Regular';
     max-width: 572px;
     font-size: 18px;
     line-height: 150%;
@@ -64,6 +64,7 @@ nav-link:nth-child(4) {
 }
 
 .info-notice {
+    font-family: 'Roboto Regular';
     margin: 25px 0 5px 0;
     font-size: 18px;
     line-height: 150%;
@@ -71,12 +72,14 @@ nav-link:nth-child(4) {
 }
 
 .date {
+    font-family: 'Roboto Regular';
     font-size: 24px;
     line-height: 150%;
     color: #ffffff;
 }
 
 .trailer-btn {
+    font-family: 'Roboto Regular';
     position: relative;
     margin: 75px 0 0;
     padding: 0 0 0 34px;

@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Proxima Nova Black';
+	src: url('../fonts/ProximaNova-Regular.eot');
+    src: local('☺'), url('../fonts/ProximaNova-Regular.woff') format('woff'), 
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype'), 
+    url('../fonts/ProximaNova-Regular.svg') format('svg');
+	font-weight: black;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('../fonts/Roboto-Regular.eot');
+    src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), 
+    url('../fonts/Roboto-Regular.ttf') format('truetype'), 
+    url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url('../fonts/Roboto-Regular.eot');
+    src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), 
+    url('../fonts/Roboto-Regular.ttf') format('truetype'), 
+    url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Black';
+	src: url('../fonts/Roboto-Regular.eot');
+    src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), 
+    url('../fonts/Roboto-Regular.ttf') format('truetype'), 
+    url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: black;
+	font-style: normal;
+}
