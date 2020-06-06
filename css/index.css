@@ -8,17 +8,20 @@
 
 body {
     background-color: #070506;
-    background: url('../img/main-background.png');
+    background: url('../img/main-background.png') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container {
+    padding: 90px 0 110px;
     width: 90%;
     max-width: 1060px;
     margin: 0 auto;
 }
 
 header {
-    margin: 90px 0 78px 0;
+    margin: 0 0 78px 0;
     display: flex;
     align-items: center;
 }
@@ -117,4 +120,56 @@ nav-link:nth-child(4) {
     height: 81px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
+}
+
+.episodes-title {
+    margin: 55px 0 25px;
+    font-family: 'Roboto Black';
+    font-size: 18px;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slider-item {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 250px;
+    min-height: 200px;
+    padding: 30px;
+    margin: 0 20px 0 0;
+    background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86));
+    box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slider-item:hover {
+    background: linear-gradient(0deg, rgba(64, 101, 255, 0.86), rgba(64, 101, 255, 0.86));
+}
+
+.item-year  {
+    font-family: 'Roboto Regular';
+    font-size: 18px;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.item-name {
+    font-family: 'Roboto Black';
+    font-size: 18px;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.rating-title {
+    font-family: 'Roboto Regular';
+    font-size: 13px;
+    line-height: 150%;
+    color: #ffffff;
 }
