@@ -5,3 +5,113 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #070506;
+    background: url('../img/main-background.png');
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.container {
+    width: 90%;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 90px 0 78px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 70px 0 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px 0 0;
+}
+
+nav-link:nth-child(4) {
+    margin: 0;
+}
+
+.sub-title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.title {
+    margin: 10px 0 25px 0;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    color: #ffffff;
+}
+
+.info-text {
+    max-width: 572px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #afafaf;
+}
+
+.info-notice {
+    margin: 25px 0 5px 0;
+    font-size: 18px;
+    line-height: 150%;
+    color: #b02000;
+}
+
+.date {
+    font-size: 24px;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+.trailer-btn {
+    position: relative;
+    margin: 75px 0 0;
+    padding: 0 0 0 34px;
+    display: inline-block;
+    width: 260px;
+    height: 65px;
+    background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+    border-radius: 300px;
+    font-size: 14px;
+    line-height: 65px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.trailer-btn::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: "";
+    display: block;
+    width: 65px;
+    height: 65px;
+    background: #ffffff url('../img/play-icon.png') 55% center no-repeat;
+    border-radius: 50%;
+}
+
+.trailer-btn::before {
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    content: "";
+    display: block;
+    width: 81px;
+    height: 81px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
