@@ -7,9 +7,16 @@
 }
 
 body {
-    background: #070506 url('../img/main-background.jpg') top right -110% no-repeat;
+    background: #070506 url('../img/main-background.jpg') center no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    transition: background 0.3s;
+}
+
+.second-background {
+    background: #070506 url('../img/main-background-2.jpg') center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container {
@@ -81,6 +88,7 @@ nav-link:nth-child(4) {
 }
 
 .trailer-btn {
+    animation-iteration-count: infinite;
     font-family: 'Roboto Regular';
     position: relative;
     margin: 75px 0 0;
@@ -131,6 +139,7 @@ nav-link:nth-child(4) {
 
 .slider {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
