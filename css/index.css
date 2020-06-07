@@ -7,10 +7,9 @@
 }
 
 body {
-    background-color: #070506;
-    background: url('../img/main-background.png') no-repeat;
+    background: #070506 url('../img/main-background.jpg') top right -110% no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 
 .container {
@@ -168,8 +167,41 @@ nav-link:nth-child(4) {
 }
 
 .rating-title {
+    margin: 0 10px 0 0;
     font-family: 'Roboto Regular';
     font-size: 13px;
     line-height: 150%;
     color: #ffffff;
+}
+
+.star {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url('../img/star-icon.svg') center no-repeat;
+}
+
+.star-empty {
+    background: url('../img/empty-star-icon.svg') center no-repeat;
+}
+
+.left-arrow {
+    margin: 30px 0 0;
+    font-size: 0;
+    width: 32px;
+    margin: 0 15px 0 0;
+    height: 32px;
+    background: url('../img/left-arrow.svg') center no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.right-arrow {
+    margin: 30px 0 0;
+    font-size: 0;
+    width: 32px;
+    height: 32px;
+    background: url('../img/right-arrow.svg') center no-repeat;
+    border: none;
+    cursor: pointer;
 }
