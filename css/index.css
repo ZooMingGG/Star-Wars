@@ -158,6 +158,7 @@ nav-link:nth-child(4) {
     cursor: pointer;
     transition: all 0.2s;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .slider-item-img {
