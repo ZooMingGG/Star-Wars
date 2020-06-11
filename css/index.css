@@ -144,6 +144,7 @@ nav-link:nth-child(4) {
 }
 
 .slider-item {
+    position: relative;
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
@@ -151,14 +152,23 @@ nav-link:nth-child(4) {
     min-height: 200px;
     padding: 30px;
     margin: 0 20px 0 0;
-    background: linear-gradient(0deg, rgba(80, 80, 80, 0.86), rgba(80, 80, 80, 0.86));
+    background: rgba(80, 80, 80, 0.86);
     box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.2s;
+    overflow: hidden;
+}
+
+.slider-item-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .slider-item:hover {
-    background: linear-gradient(0deg, rgba(64, 101, 255, 0.86), rgba(64, 101, 255, 0.86));
+    background: rgba(64, 101, 255, 0.86);
 }
 
 .item-year  {
