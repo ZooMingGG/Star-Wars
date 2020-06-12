@@ -87,6 +87,10 @@ nav-link:nth-child(4) {
     color: #ffffff;
 }
 
+.link-wrapper {
+    text-align: start;
+}
+
 .trailer-btn {
     animation-iteration-count: infinite;
     font-family: 'Roboto Regular';
@@ -99,6 +103,7 @@ nav-link:nth-child(4) {
     background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
     border-radius: 300px;
     font-size: 14px;
+    text-align: start;
     line-height: 65px;
     text-transform: uppercase;
     text-decoration: none;
@@ -135,6 +140,10 @@ nav-link:nth-child(4) {
     font-size: 18px;
     line-height: 150%;
     color: #ffffff;
+}
+
+.episodes {
+    text-align: center;
 }
 
 .slider {
@@ -224,4 +233,70 @@ nav-link:nth-child(4) {
     background: url('../img/right-arrow.svg') center no-repeat;
     border: none;
     cursor: pointer;
+}
+
+/*Media*/
+@media (max-width: 1060px) {
+    .slider-item {
+        margin: auto;
+    }
+}
+
+@media (max-width: 778px) {
+    .container {
+        padding: 40px 0 40px;
+    }
+
+    header {
+        margin: 0 0 30px 0;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .sub-title {
+        font-size: 36px;
+    }
+
+    .title {
+        font-size: 40px;
+        margin: 0 0 0 0;
+    }
+}
+
+@media (max-width: 578px) {
+    .sub-title, .title, .info-notice, .date {
+        text-align: center;
+    }
+
+    .info-text {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .info-notice {
+        margin: 15px auto 0;
+    }
+
+    .link-wrapper {
+        text-align: center;
+    }
+
+    .container {
+        padding: 20px 0 20px;
+    }
+
+    .title {
+        font-size: 30px;
+        margin: 0 0 0 0;
+    }
+
+    .trailer-btn {
+        margin: 40px auto;
+    }
+
+    .episodes-title {
+        margin: 0 0 20px;
+    }
 }
