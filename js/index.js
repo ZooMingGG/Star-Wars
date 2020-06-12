@@ -54,4 +54,4 @@ function changeBackground() {
 
 changeBackground();
 
-const timerId = setInterval(changeBackground, 15000);
+const timerId = setInterval(changeBackground, 10000);

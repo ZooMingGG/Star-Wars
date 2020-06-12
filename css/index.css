@@ -8,7 +8,6 @@
 
 body {
     background: #070506;
-    transition: background 0.3s;
 }
 
 .first-background {
@@ -297,6 +296,14 @@ nav-link:nth-child(4) {
 
     nav {
         display: none;
+    }
+
+    .third-background {
+        right: 0;
+    }
+    
+    .fourth-background {
+        right: 0;
     }
 
     .sub-title {
