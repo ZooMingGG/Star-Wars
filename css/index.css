@@ -30,7 +30,7 @@ body {
     margin: 0 auto;
 }
 
-.first-vector, .second-vector, .kylo, .soldier {
+.first-vector, .second-vector, .third-background, .fourth-background {
     display: none;
 }
 
@@ -50,7 +50,7 @@ body {
     height: 60vh;
 }
 
-.kylo {
+.third-background {
     bottom: 0;
     right: 15%;
     z-index: -9;
@@ -58,7 +58,7 @@ body {
     height: 95vh;
 }
 
-.soldier {
+.fourth-background {
     bottom: 0;
     right: 15%;
     z-index: -9;
@@ -69,7 +69,6 @@ body {
 .visible {
     display: block;
 }
-
 
 header {
     margin: 0 0 78px 0;
