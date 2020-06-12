@@ -5,7 +5,6 @@ const fourthBackground = document.querySelector('.fourth-background');
 const firstVector = document.querySelector('.first-vector');
 const secondVector = document.querySelector('.second-vector');
 
-
 let current = 1;
 
 function changeBackground() {
@@ -55,3 +54,4 @@ function changeBackground() {
 changeBackground();
 
 const timerId = setInterval(changeBackground, 10000);
+
