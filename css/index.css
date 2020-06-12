@@ -7,10 +7,14 @@
 }
 
 body {
+    background: #070506;
+    transition: background 0.3s;
+}
+
+.first-background {
     background: #070506 url('../img/main-background.jpg') center no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    transition: background 0.3s;
 }
 
 .second-background {
@@ -25,6 +29,47 @@ body {
     max-width: 1060px;
     margin: 0 auto;
 }
+
+.first-vector, .second-vector, .kylo, .soldier {
+    display: none;
+}
+
+.first-vector {
+    bottom: 0;
+    z-index: -10;
+    position: fixed;
+    width: 100%;
+    height: 80vh;
+}
+
+.second-vector {
+    bottom: 0;
+    z-index: -10;
+    position: fixed;
+    width: 100%;
+    height: 60vh;
+}
+
+.kylo {
+    bottom: 0;
+    right: 15%;
+    z-index: -9;
+    position: fixed;
+    height: 95vh;
+}
+
+.soldier {
+    bottom: 0;
+    right: 15%;
+    z-index: -9;
+    position: fixed;
+    height: 100vh;
+}
+
+.visible {
+    display: block;
+}
+
 
 header {
     margin: 0 0 78px 0;
@@ -143,7 +188,7 @@ nav-link:nth-child(4) {
 }
 
 .episodes {
-    text-align: center;
+    text-align: start;
 }
 
 .slider {
@@ -262,6 +307,10 @@ nav-link:nth-child(4) {
     .title {
         font-size: 40px;
         margin: 0 0 0 0;
+    }
+
+    .episodes {
+        text-align: center;
     }
 }
 
