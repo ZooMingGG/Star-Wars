@@ -1,5 +1,9 @@
 "use strict";
 $( document ).ready(function() {
+    $(function () {
+        res();
+    });
+
     $('.owl-carousel').owlCarousel({
         loop:true,
         navClass:['left-arrow', 'right-arrow'],
@@ -21,4 +25,5 @@ $( document ).ready(function() {
         }
     });
 });
+
 
